@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header id="header">
+      <h1>My Bakery</h1>
+      <h3>Few facts about my bakery</h3>
+      <!-- Images section -->
+      <section id="images">
+        <p><img src="Images/Baking.jpg" alt="Our earth" width="400" /></p>
+      </section>
+      <!-- About section -->
+      <section id="about">
+        <p>
+          A bakery, a place where the magic of flour, sugar, and butter
+          transforms into edible artistry. It's a haven for the sweet-toothed, a
+          place to savor the simple pleasures of life. A bakery is more than
+          just a business; it's a community gathering spot, a place to share
+          laughter and joy over a slice of cake or a warm, freshly baked bread.
+          The aroma of freshly baked bread is a language of its own. Each
+          creation tells a story, and I'm here to savor every chapter.
+        </p>
+      </section>
+      <p><a href="#prices">Menu</a></p>
+      <p><a href="#order">Place an Order!</a></p>
+      <hr />
+    </header>
+    <!-- End of Header section -->
+
+    <!-- Main section -->
+    <main>
+      <!-- Services -->
+      <section id="services">
+        <h3>Our Services:</h3>
+        <ol>
+          <li>
+            <b>Retail Sales:</b> Selling baked goods to individual customers in
+            a retail setting.
+          </li>
+          <li>
+            <b>Custom Cake Decoration:</b> Creating personalized cakes for
+            special occasions.
+          </li>
+          <li>
+            <b>Catering for Events:</b> Providing baked goods for parties,
+            weddings, and other events.
+          </li>
+        </ol>
+      </section>
+      <hr />
+
+      <!-- Video -->
+      <section id="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/gt7zOP_wPfM?si=uDKhowuKFu5zIaOc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <hr />
+
+      <!-- Price List -->
+      <section id="prices">
+        <h3>Price List:</h3>
+        <table border="">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Chocolate Fudge Brownie</td>
+              <td>
+                A rich, dense brownie made with premium dark chocolate and
+                topped with a silky chocolate ganache.
+              </td>
+              <td>₹290 each</td>
+            </tr>
+            <tr>
+              <td>Almond Croissant</td>
+              <td>
+                Flaky, buttery croissant filled with almond paste and topped
+                with toasted almond flakes and powdered sugar.
+              </td>
+              <td>₹355 each</td>
+            </tr>
+            <tr>
+              <td>Strawberry Cream Tart</td>
+              <td>
+                A crisp tart shell filled with vanilla pastry cream and topped
+                with fresh, glazed strawberries.
+              </td>
+              <td>₹415 each</td>
+            </tr>
+            <tr>
+              <td>Sourdough Bread Loaf</td>
+              <td>
+                Artisan sourdough with a crisp crust and soft, tangy interior.
+                Perfect for sandwiches or toasting.
+              </td>
+              <td>₹500 per loaf</td>
+            </tr>
+            <tr>
+              <td>Blueberry Muffin</td>
+              <td>
+                Moist and fluffy muffin bursting with fresh blueberries and a
+                hint of lemon zest, topped with a sugar crumble.
+              </td>
+              <td>₹230 each</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <hr />
+
+      <!-- Form to Order -->
+      <section id="order">
+        <h3>Place an order:</h3>
+        <form action="https://en.wikipedia.org/wiki/Bakery" target="_blank">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <br /><br />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required />
+          <br /><br />
+          <label for="phone">Phone:</label>
+          <input type="number" name="phone" id="phone" required />
+          <br /><br />
+          <input type="checkbox" name="items" id="brownie" value="brownie" />
+          <label for="brownie">Chocolate Fudge Brownie</label>
+          <input
+            type="checkbox"
+            name="items"
+            id="croissant"
+            value="croissant"
+          />
+          <label for="croissant">Almond Croissant</label>
+          <input type="checkbox" name="items" id="tart" value="tart" />
+          <label for="tart">Strawberry Cream Tart</label>
+          <input type="checkbox" name="items" id="loaf" value="loaf" />
+          <label for="loaf">Sourdough Bread Loaf</label>
+          <input type="checkbox" name="items" id="muffin" value="muffin" />
+          <label for="muffin">Blueberry Muffin</label>
+          <br /><br />
+          <input type="submit" />
+        </form>
+      </section>
+      <hr />
+    </main>
+    <!-- End of Main section -->
+
+    <!-- Footer section -->
+    <footer id="footer">
+      <h3>Contact us!</h3>
+      <p><b>Email: </b><a href="mailto:abc@xyz.com">abc@xyz.com</a></p>
+      <p><b>Phone: </b><a href="tel:+919874563215">9874563215</a></p>
+    </footer>
+    <hr />
+    <!-- End of Footer section -->
+
+    <a href="#">Back to top</a>
+  </body>
+</html>
